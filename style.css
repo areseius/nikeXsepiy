@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: rgb(4, 4, 4);
+}
+/* !NAVBAR */
+header {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+nav .logo {
+  height: 40px;
+  padding: 0px 0px 0px 80px;
+  cursor: pointer;
+}
+nav .nav-items {
+  display: flex;
+  color: white;
+  list-style: none;
+  position: relative;
+}
+nav .nav-items li {
+  padding: 0px 20px;
+}
+nav .nav-items li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+nav i {
+  cursor: pointer;
+  color: white;
+  padding: 0px 80px;
+  font-size: 20px;
+}
+nav .nav-items li a:hover {
+  color: #f74f10;
+}
+
+/* !SEC-MAIN */
+.sec-main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-main-wrapper {
+  height: 100%;
+  width: 90%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-main-wrapper .product-about {
+  margin-top: 50px;
+  width: 50%;
+}
+.sec-main-wrapper .product-image {
+  width: 50%;
+}
+.text-section h1 {
+  color: white;
+  font-size: 140px;
+  font-family: "Protest Revolution", sans-serif !important;
+  letter-spacing: 10px;
+}
+.text-section h2 {
+  color: white;
+  font-family: "Protest Revolution", sans-serif !important;
+  font-size: 90px;
+  letter-spacing: 5px;
+  margin: 20px 0px;
+  color: #f74f10;
+}
+.text-section h5 {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.text-section p {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.475);
+  font-size: 16px;
+  width: 90%;
+  margin: 20px 0px 30px 0px;
+  color: grey;
+}
+.price-section {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.price-section h2 {
+  color: white;
+  font-size: 30px;
+}
+.price-section button {
+  height: 50px;
+  width: 300px;
+  color: white;
+  background-image: linear-gradient(to left, #292525, #f74f10);
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 3px;
+  padding: 5px;
+}
+.product-image {
+  width: 50%;
+  margin-top: 50px;
+  background-position: center;
+  background-size: cover;
+
+  filter: drop-shadow(20px -20px 20px #f74f10);
+}
